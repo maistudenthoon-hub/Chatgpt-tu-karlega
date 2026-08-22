@@ -6,8 +6,13 @@ Streaming app frontend connected to Supabase.
 
 1. Import this repository into Replit or clone it locally.
 2. Run `npm install`.
-3. Copy `.env.example` to `.env` and add your Supabase URL and anon key.
+3. Copy `.env.example` to `.env` and add your Supabase URL and publishable key.
 4. Run `npm run dev`.
+
+For Netlify, configure these build-time environment variables:
+
+- `VITE_SUPABASE_URL`
+- `VITE_SUPABASE_PUBLISHABLE_KEY`
 
 ## Completed features
 
